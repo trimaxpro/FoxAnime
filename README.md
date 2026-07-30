@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="public/assets/logo.png" alt="FoxAnime Logo" width="100" />
-  <h1>FoxAnime</h1>
+  <h1>
+    <img src="public/assets/logo.png" alt="FoxAnime Logo" width="48" height="48" align="absmiddle" />
+    <span align="absmiddle">FoxAnime</span>
+  </h1>
   <p>Stream your favorite anime in high definition with <b>zero ad interruptions</b>, automated progress tracking, and instant title search.</p>
 </div>
 
