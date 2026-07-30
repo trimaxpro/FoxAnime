@@ -1,6 +1,8 @@
-# 🦊 FoxAnime
-
-> Stream your favorite anime in high definition with **zero ad interruptions**, automated progress tracking, and instant title search.
+<div align="center">
+  <img src="public/assets/logo.png" alt="FoxAnime Logo" width="100" />
+  <h1>FoxAnime</h1>
+  <p>Stream your favorite anime in high definition with <b>zero ad interruptions</b>, automated progress tracking, and instant title search.</p>
+</div>
 
 ---
 
