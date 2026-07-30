@@ -106,7 +106,8 @@ Ensure you have **Node.js 18.x** or higher installed on your machine.
 
 ---
 
-## 📜 Attribution & License
+## 🔒 Copyright & License
 
 - Sakugabooru video clips are served via the [Sakugabooru API](https://www.sakugabooru.com/help/api) under fair-use animation preview guidelines.
-- Created for **FoxAnime**. Open source under the [MIT License](LICENSE).
+- **Copyright (c) 2026 trimaxpro / FoxAnime. All Rights Reserved.**
+- FoxAnime is a proprietary software project. Unauthorized reproduction, modification, or distribution is prohibited.

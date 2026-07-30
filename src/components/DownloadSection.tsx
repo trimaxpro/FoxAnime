@@ -20,7 +20,7 @@ export const DownloadSection: React.FC = () => {
             Get Fox Anime for Windows
           </h2>
           <p className="text-neutral-400 text-base font-medium font-nunito">
-            Official desktop release. 100% free, ad-free, and open-source.
+            Official desktop release. 100% free and ad-free.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export const DownloadSection: React.FC = () => {
         <div className="max-w-md mx-auto p-4 rounded-xl bg-neutral-900/60 border border-neutral-800 flex items-center justify-between text-xs font-nunito">
           <div className="flex items-center space-x-3 text-neutral-300">
             <Github className="w-4 h-4 text-neutral-100 flex-shrink-0" />
-            <span className="font-medium">Open Source on GitHub</span>
+            <span className="font-medium">Official GitHub Repository</span>
           </div>
           <a 
             href="https://github.com/trimaxpro/FoxAnime" 
