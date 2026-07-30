@@ -88,7 +88,12 @@ export const DownloadSection: React.FC = () => {
                   className="w-full rounded-lg border border-brand-red/50 bg-transparent px-4 py-3 text-sm font-semibold text-brand-red transition-colors duration-300 hover:bg-brand-red hover:text-white flex items-center justify-center space-x-2 cursor-pointer"
                 >
                   <Download className="w-4 h-4" />
-                  <span>Download for Windows</span>
+                  <span className="flex items-center gap-1.5">
+                    Download for
+                    <svg className="w-4 h-4 fill-current inline-block ml-0.5" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 12.402l35.687-4.86.016 34.423-35.67.203zm35.67 33.527l.025 34.437L0 75.525l.017-29.418zm4.183-39.043L87.857 0v41.482l-48.004.358zm48.016 44.836l-.012 41.525-48.004-6.762-.016-34.737z" />
+                    </svg>
+                  </span>
                 </button>
               </div>
 
