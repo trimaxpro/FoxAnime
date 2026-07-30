@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
 
   return (
     <>
-      <footer className="bg-neutral-950 text-neutral-400 py-12 border-t border-neutral-800 relative overflow-hidden">
+      <footer className="bg-neutral-950 text-neutral-400 py-4 border-t border-neutral-800 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           
           {/* Footer Content Grid */}
