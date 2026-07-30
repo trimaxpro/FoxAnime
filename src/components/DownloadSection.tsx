@@ -83,9 +83,11 @@ export const DownloadSection: React.FC = () => {
 
               {/* Action Button */}
               <div className="border-t border-neutral-800 pt-5">
-                <button 
-                  onClick={() => alert("Starting download for Fox-Anime-Setup-1.0.0.exe...")}
-                  className="w-full rounded-lg border border-brand-red/50 bg-transparent px-4 py-3 text-sm font-semibold text-brand-red transition-colors duration-300 hover:bg-brand-red hover:text-white flex items-center justify-center space-x-2 cursor-pointer"
+                <a 
+                  href="https://github.com/trimaxpro/FoxAnime/releases/latest"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full rounded-lg border border-brand-red/50 bg-transparent px-4 py-3 text-sm font-semibold text-brand-red transition-colors duration-300 hover:bg-brand-red hover:text-white flex items-center justify-center space-x-2 cursor-pointer text-decoration-none"
                 >
                   <Download className="w-4 h-4" />
                   <span className="flex items-center gap-1.5">
@@ -94,7 +96,7 @@ export const DownloadSection: React.FC = () => {
                       <path d="M0 12.402l35.687-4.86.016 34.423-35.67.203zm35.67 33.527l.025 34.437L0 75.525l.017-29.418zm4.183-39.043L87.857 0v41.482l-48.004.358zm48.016 44.836l-.012 41.525-48.004-6.762-.016-34.737z" />
                     </svg>
                   </span>
-                </button>
+                </a>
               </div>
 
             </div>

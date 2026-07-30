@@ -53,8 +53,9 @@ export const Hero: React.FC = () => {
               
               {/* Primary Comic Button in Fox Red Theme */}
               <a 
-                href="#"
-                onClick={(e) => { e.preventDefault(); alert("Starting download for Fox-Anime-Setup-1.0.0.exe..."); }}
+                href="https://github.com/trimaxpro/FoxAnime/releases/latest"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="comic-button group shadow-xl"
               >
                 <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
