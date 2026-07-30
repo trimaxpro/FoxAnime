@@ -92,7 +92,7 @@ export const Navbar: React.FC = () => {
         {/* Custom Rotating Glowing Star GitHub Button */}
         <div className="flex items-center">
           <a
-            href="https://github.com"
+            href="https://github.com/trimaxpro/FoxAnime"
             target="_blank"
             rel="noreferrer"
             className="github-star-pill-btn group"

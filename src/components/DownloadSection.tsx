@@ -103,7 +103,7 @@ export const DownloadSection: React.FC = () => {
             <span className="font-medium">Open Source on GitHub</span>
           </div>
           <a 
-            href="https://github.com" 
+            href="https://github.com/trimaxpro/FoxAnime" 
             target="_blank" 
             rel="noreferrer"
             className="px-3 py-1.5 rounded-lg border border-neutral-700 bg-neutral-800 hover:bg-neutral-700 text-neutral-100 font-ubuntu font-bold text-xs transition-colors"
