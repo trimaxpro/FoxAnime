@@ -1,8 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Download, Shield, Clock, Search, Zap } from 'lucide-react';
 import { SakugabooruBackground } from './SakugabooruBackground';
 
 export const Hero: React.FC = () => {
+  const [downloadCount, setDownloadCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch('https://api.github.com/repos/trimaxpro/FoxAnime/releases/tags/v1.0.0')
+      .then(res => res.json())
+      .then(data => {
+        const total = (data.assets || []).reduce(
+          (sum: number, asset: { download_count: number }) => sum + asset.download_count,
+          0
+        );
+        setDownloadCount(total);
+      })
+      .catch(() => setDownloadCount(0));
+  }, []);
+
+  const handleDownloadClick = () => {
+    // Optimistically increment the displayed count
+    setDownloadCount(prev => (prev !== null ? prev + 1 : 1));
+  };
+
   return (
     <section id="hero" className="relative pt-28 pb-6 md:pt-32 md:pb-8 flex flex-col justify-center items-center overflow-hidden bg-neutral-950">
       
@@ -48,15 +68,16 @@ export const Hero: React.FC = () => {
               </div>
             </div>
 
-            {/* Action Buttons: Red Comic Button + Interactive Red Heart Like Button */}
+            {/* Action Buttons: Download Button + Download Counter */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pb-2">
               
               {/* Primary Comic Button in Fox Red Theme */}
               <a 
                 href="https://github.com/trimaxpro/FoxAnime/releases/download/v1.0.0/Fox-Anime-v1.0.0-Windows.zip"
-                target="_blank"
+                download="Fox-Anime-v1.0.0-Windows.zip"
                 rel="noopener noreferrer"
                 className="comic-button group shadow-xl"
+                onClick={handleDownloadClick}
               >
                 <Download className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 <span className="flex items-center gap-1.5">
@@ -67,17 +88,15 @@ export const Hero: React.FC = () => {
                 </span>
               </a>
 
-              {/* Interactive Animated Red Heart Like Button */}
-              <div className="like-button">
-                <input className="on" id="heart" type="checkbox" />
-                <label className="like" htmlFor="heart">
-                  <svg className="like-icon" fillRule="nonzero" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
-                  </svg>
-                  <span className="like-text">Likes</span>
-                </label>
-                <span className="like-count one">0</span>
-                <span className="like-count two">1</span>
+              {/* Download Counter Badge */}
+              <div className="download-counter">
+                <div className="download-counter-label">
+                  <Download className="w-4 h-4" />
+                  <span>Downloads</span>
+                </div>
+                <div className="download-counter-count">
+                  {downloadCount !== null ? downloadCount.toLocaleString() : '—'}
+                </div>
               </div>
 
             </div>

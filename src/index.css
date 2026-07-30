@@ -201,17 +201,11 @@ body {
   fill: #ffffff;
 }
 
-/* Interactive Like Button Style */
-#heart {
-  display: none;
-}
-
-.like-button {
+/* Download Counter Badge */
+.download-counter {
   position: relative;
-  cursor: pointer;
   display: inline-flex;
   height: 48px;
-  width: 140px;
   border-radius: 12px;
   border: 1px solid #262626;
   background-color: #0a0a0a;
@@ -220,74 +214,48 @@ body {
   transition: all 0.3s ease;
 }
 
-.like-button:hover {
+.download-counter:hover {
   border-color: #404040;
   transform: scale(1.03);
 }
 
-.like {
-  width: 70%;
-  height: 100%;
+.download-counter-label {
   display: flex;
-  cursor: pointer;
   align-items: center;
-  justify-content: space-evenly;
-}
-
-.like-icon {
-  fill: #525252;
-  height: 22px;
-  width: 22px;
-  transition: fill 0.2s ease;
-}
-
-.like-text {
-  color: #e5e5e5;
+  gap: 8px;
+  padding: 0 16px;
+  color: #a3a3a3;
   font-size: 14px;
   font-weight: 600;
   font-family: "Lato", sans-serif;
 }
 
-.like-count {
-  position: absolute;
-  right: 0;
-  width: 30%;
-  height: 100%;
+.download-counter-label svg {
+  color: #E50914;
+}
+
+.download-counter-count {
   display: flex;
-  justify-content: center;
   align-items: center;
-  color: #737373;
-  font-size: 14px;
+  justify-content: center;
+  padding: 0 18px;
+  color: #ffffff;
+  font-size: 15px;
   font-weight: 700;
   font-family: monospace;
   border-left: 1px solid #262626;
-  transition: all 0.4s ease-out;
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.08), transparent);
+  animation: countFadeIn 0.6s ease-out;
 }
 
-.like-count.two {
-  transform: translateY(40px);
-}
-
-.on:checked ~ .like .like-icon {
-  fill: #E50914;
-  animation: enlarge 0.2s ease-out 1;
-}
-
-.on:checked ~ .like-count.two {
-  transform: translateY(0);
-  color: #ffffff;
-}
-
-.on:checked ~ .like-count.one {
-  transform: translateY(-40px);
-}
-
-@keyframes enlarge {
+@keyframes countFadeIn {
   0% {
-    transform: scale(0.5);
+    opacity: 0;
+    transform: translateY(8px);
   }
   100% {
-    transform: scale(1.25);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

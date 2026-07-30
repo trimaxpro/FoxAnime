@@ -41,7 +41,7 @@
 - 🍿 **100% Ad-Free Streaming**: Full HD 1080p anime playback with zero ad interruptions or popups.
 - ⚡ **Instant Title Search**: Lightning-fast title discovery with real-time search auto-complete.
 - ⏱️ **Auto Progress Resume**: Automatically tracks your episode watch time so you can pick up exactly where you left off.
-- 🎬 **Dynamic Sakugabooru Background Engine**: Features continuous, high-definition anime animation background clips streamed in real-time with backdrop blur for maximum text readability.
+- 🎬 **Dynamic Animated Background**: Features continuous, high-definition anime animation clips with backdrop blur for an immersive visual experience.
 - 💻 **Windows Desktop Application**: Dedicated native Windows client optimized for smooth 60 FPS performance.
 
 ---
@@ -49,7 +49,7 @@
 ## 📖 User Guide
 
 ### 1. Navigating the Showcase
-- **Home**: View the main hero section featuring live Sakugabooru animation background clips and quick download options.
+- **Home**: View the main hero section featuring live animated backgrounds and quick download options.
 - **Preview**: Explore interactive showcase tabs demonstrating the FoxAnime desktop interface, watch history, settings, and player features.
 - **Search**: Open the instant title search feature to preview fast anime lookup.
 
@@ -58,8 +58,7 @@
 
 ---
 
-## 🔒 Copyright & Disclaimer
+## 🔒 Copyright
 
-- Sakugabooru animation video clips are streamed via the Sakugabooru API for preview purposes under fair-use animation guidelines.
 - **Copyright © 2026 trimaxpro / FoxAnime. All Rights Reserved.**
 - FoxAnime is a proprietary software project. Unauthorized copying, modification, or redistribution is strictly prohibited.

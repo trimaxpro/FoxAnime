@@ -85,7 +85,7 @@ export const DownloadSection: React.FC = () => {
               <div className="border-t border-neutral-800 pt-5">
                 <a 
                   href="https://github.com/trimaxpro/FoxAnime/releases/download/v1.0.0/Fox-Anime-v1.0.0-Windows.zip"
-                  target="_blank"
+                  download="Fox-Anime-v1.0.0-Windows.zip"
                   rel="noopener noreferrer"
                   className="w-full rounded-lg border border-brand-red/50 bg-transparent px-4 py-3 text-sm font-semibold text-brand-red transition-colors duration-300 hover:bg-brand-red hover:text-white flex items-center justify-center space-x-2 cursor-pointer text-decoration-none"
                 >
