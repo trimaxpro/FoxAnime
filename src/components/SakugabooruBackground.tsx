@@ -1,48 +1,53 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { RefreshCw } from 'lucide-react';
-import { fetchSakugabooruClips, SakugabooruPost } from '../services/sakugabooru';
+import { fetchSakugabooruClips, SakugabooruPost, FALLBACK_POSTS } from '../services/sakugabooru';
 
 interface SakugabooruBackgroundProps {
   children?: React.ReactNode;
   initialBlur?: 'sm' | 'md' | 'lg' | 'none';
   className?: string;
-  showControls?: boolean;
 }
 
 export const SakugabooruBackground: React.FC<SakugabooruBackgroundProps> = ({
   children,
   initialBlur = 'md',
-  className = '',
-  showControls = false
+  className = ''
 }) => {
-  const [clipsQueue, setClipsQueue] = useState<SakugabooruPost[]>([]);
-  const [slot0Clip, setSlot0Clip] = useState<SakugabooruPost | null>(null);
-  const [slot1Clip, setSlot1Clip] = useState<SakugabooruPost | null>(null);
+  // Initialize immediately with fallback clips for 0ms startup delay on fresh load/restart
+  const [slot0Clip, setSlot0Clip] = useState<SakugabooruPost | null>(FALLBACK_POSTS[0] || null);
+  const [slot1Clip, setSlot1Clip] = useState<SakugabooruPost | null>(FALLBACK_POSTS[1] || null);
+  const [clipsQueue, setClipsQueue] = useState<SakugabooruPost[]>(FALLBACK_POSTS.slice(2));
   const [activeSlot, setActiveSlot] = useState<0 | 1>(0);
   
   const [isMuted] = useState<boolean>(true);
   const [blurLevel] = useState<'sm' | 'md' | 'lg' | 'none'>(initialBlur);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isFetchingMore, setIsFetchingMore] = useState<boolean>(false);
 
   const videoRef0 = useRef<HTMLVideoElement | null>(null);
   const videoRef1 = useRef<HTMLVideoElement | null>(null);
   const isTransitioningRef = useRef<boolean>(false);
 
-  // Fetch initial batch of clips
-  const loadInitialClips = async () => {
-    setIsLoading(true);
-    const posts = await fetchSakugabooruClips(25);
-    if (posts.length > 0) {
-      setSlot0Clip(posts[0]);
-      setSlot1Clip(posts[1] || posts[0]);
-      setClipsQueue(posts.slice(2));
-    }
-    setIsLoading(false);
-  };
-
+  // Play active video immediately on mount or slot change
   useEffect(() => {
-    loadInitialClips();
+    const activeVideo = activeSlot === 0 ? videoRef0.current : videoRef1.current;
+    if (activeVideo) {
+      activeVideo.muted = true;
+      activeVideo.play().catch(() => {});
+    }
+  }, [activeSlot]);
+
+  // Fetch live API clips in background without delaying initial render
+  useEffect(() => {
+    const loadLiveClipsInBackground = async () => {
+      try {
+        const posts = await fetchSakugabooruClips(25);
+        if (posts.length > 0) {
+          setClipsQueue(prev => [...prev, ...posts]);
+        }
+      } catch (err) {
+        console.warn('Background Sakugabooru prefetch failed:', err);
+      }
+    };
+    loadLiveClipsInBackground();
   }, []);
 
   // Fetch more clips when queue runs low
@@ -138,6 +143,8 @@ export const SakugabooruBackground: React.FC<SakugabooruBackgroundProps> = ({
             autoPlay
             muted={isMuted}
             playsInline
+            preload="auto"
+            onCanPlay={(e) => e.currentTarget.play().catch(() => {})}
             onEnded={advanceToNextClip}
             onError={() => handleVideoError(0)}
             className={`absolute inset-0 w-full h-full object-cover scale-105 transition-opacity duration-1000 ease-in-out ${
@@ -154,6 +161,8 @@ export const SakugabooruBackground: React.FC<SakugabooruBackgroundProps> = ({
             autoPlay
             muted={isMuted}
             playsInline
+            preload="auto"
+            onCanPlay={(e) => e.currentTarget.play().catch(() => {})}
             onEnded={advanceToNextClip}
             onError={() => handleVideoError(1)}
             className={`absolute inset-0 w-full h-full object-cover scale-105 transition-opacity duration-1000 ease-in-out ${
@@ -162,12 +171,6 @@ export const SakugabooruBackground: React.FC<SakugabooruBackgroundProps> = ({
           />
         )}
 
-        {/* Loading Skeleton Backdrop */}
-        {isLoading && (
-          <div className="absolute inset-0 bg-neutral-950 animate-pulse flex items-center justify-center">
-            <RefreshCw className="w-8 h-8 text-brand-red animate-spin" />
-          </div>
-        )}
       </div>
 
       {/* Blur & Vignette Backdrop Overlay Layer */}

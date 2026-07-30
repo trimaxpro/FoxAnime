@@ -17,7 +17,7 @@ const BLOCKED_POST_IDS = new Set<number>([312049]);
 const BLOCKED_TAGS = ['isekai_maou', 'isekai_maou_to_shoukan_shoujo_no_dorei_majutsu'];
 
 // Fallback high quality Sakugabooru clips in case of network/CORS issues
-const FALLBACK_POSTS: SakugabooruPost[] = [
+export const FALLBACK_POSTS: SakugabooruPost[] = [
   {
     id: 312054,
     tags: "effects fighting fire lightning smears smoke",
