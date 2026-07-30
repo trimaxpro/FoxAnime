@@ -70,8 +70,8 @@ export const Hero: React.FC = () => {
                   </svg>
                   <span className="like-text">Likes</span>
                 </label>
-                <span className="like-count one">68</span>
-                <span className="like-count two">69</span>
+                <span className="like-count one">0</span>
+                <span className="like-count two">1</span>
               </div>
 
             </div>
