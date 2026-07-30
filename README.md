@@ -6,6 +6,28 @@
 
 ---
 
+## 🖼️ Interface Previews
+
+<div align="center">
+  <img src="public/assets/homepage.png" alt="FoxAnime Home Interface" width="95%" style="border-radius: 12px;" />
+  <p><i>Desktop Client Main Dashboard</i></p>
+</div>
+
+<br />
+
+| 🔍 Browse & Discover | ⏱️ History & Progress |
+| :---: | :---: |
+| <img src="public/assets/browsepage.png" alt="Browse Anime" width="100%" /> | <img src="public/assets/historypage.png" alt="Watch History" width="100%" /> |
+
+<br />
+
+<div align="center">
+  <img src="public/assets/settingpage.png" alt="Settings & Player Customization" width="95%" style="border-radius: 12px;" />
+  <p><i>Settings & Player Customization</i></p>
+</div>
+
+---
+
 ## 🌟 Overview
 
 **FoxAnime** is a premium, dark-themed desktop anime streaming client designed for seamless, ad-free entertainment. This website serves as the official landing page and feature preview showcase for the FoxAnime application.
