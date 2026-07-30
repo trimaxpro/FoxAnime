@@ -84,7 +84,7 @@ export const DownloadSection: React.FC = () => {
               {/* Action Button */}
               <div className="border-t border-neutral-800 pt-5">
                 <a 
-                  href="https://github.com/trimaxpro/FoxAnime/releases/latest"
+                  href="https://github.com/trimaxpro/FoxAnime/releases/download/v1.0.0/Fox-Anime-v1.0.0-Windows.zip"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full rounded-lg border border-brand-red/50 bg-transparent px-4 py-3 text-sm font-semibold text-brand-red transition-colors duration-300 hover:bg-brand-red hover:text-white flex items-center justify-center space-x-2 cursor-pointer text-decoration-none"
@@ -97,6 +97,9 @@ export const DownloadSection: React.FC = () => {
                     </svg>
                   </span>
                 </a>
+                <p className="mt-2.5 text-[10px] font-mono text-neutral-500 text-center truncate" title="SHA256: 8407718e20bc493de577e01ef40643d73e6b29f4026c363c4ccc384e6e7232b6">
+                  SHA256: 8407718e20bc493de577e01ef40643d73e6b29f4026c363c4ccc384e6e7232b6
+                </p>
               </div>
 
             </div>

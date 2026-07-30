@@ -23,6 +23,11 @@ FoxAnime is a high-performance, dark-themed desktop client designed for smooth, 
 | `Fox-Anime-v1.0.0-Windows.zip` | Compressed Windows installer package | ~101.9 MB |
 | `Fox Anime-Setup-1.0.0.exe` | Windows 10 / 11 64-bit installer executable | ~102.0 MB |
 
+### SHA256 Checksum
+```text
+8407718e20bc493de577e01ef40643d73e6b29f4026c363c4ccc384e6e7232b6  Fox-Anime-v1.0.0-Windows.zip
+```
+
 ---
 
 ## 🖥️ System Requirements

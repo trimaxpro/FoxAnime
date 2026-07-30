@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
               
               {/* Primary Comic Button in Fox Red Theme */}
               <a 
-                href="https://github.com/trimaxpro/FoxAnime/releases/latest"
+                href="https://github.com/trimaxpro/FoxAnime/releases/download/v1.0.0/Fox-Anime-v1.0.0-Windows.zip"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="comic-button group shadow-xl"
