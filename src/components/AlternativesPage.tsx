@@ -45,6 +45,23 @@ const faviconFor = (url: string): string => {
   }
 };
 
+const enrichSite = (site: AnimeSite): AnimeSite => {
+  if (site.description && site.description.length > 25 && site.description.includes('.')) {
+    return site;
+  }
+  const match = FALLBACK_SITES.find(
+    (f) => f.id === site.id || f.name.toLowerCase() === site.name.toLowerCase() || f.url === site.url
+  );
+  if (match) {
+    return {
+      ...site,
+      description: match.description || site.description,
+      category: site.category || match.category,
+    };
+  }
+  return site;
+};
+
 export const AlternativesPage: React.FC = () => {
   const [sites, setSites] = useState<AnimeSite[]>([]);
   const [state, setState] = useState<LoadState>('loading');
@@ -60,7 +77,7 @@ export const AlternativesPage: React.FC = () => {
         if (contentType.includes('application/json')) {
           const data = await res.json();
           if (Array.isArray(data) && data.length > 0) {
-            setSites(data);
+            setSites(data.map(enrichSite));
             setState('ready');
             return;
           }
@@ -72,7 +89,7 @@ export const AlternativesPage: React.FC = () => {
       if (jsonRes.ok) {
         const jsonData = await jsonRes.json();
         if (Array.isArray(jsonData) && jsonData.length > 0) {
-          setSites(jsonData);
+          setSites(jsonData.map(enrichSite));
           setState('ready');
           return;
         }
@@ -110,11 +127,6 @@ export const AlternativesPage: React.FC = () => {
     }, 1800);
   };
 
-  // Clean single string 2-line description
-  const cleanDescription = (desc: string): string => {
-    return desc.split('\n').join(' ').replace(/\s+/g, ' ').trim();
-  };
-
   return (
     <section id="alternatives" className="pt-24 md:pt-28 pb-28 bg-neutral-950 text-neutral-100 min-h-screen relative overflow-hidden">
       
@@ -149,7 +161,7 @@ export const AlternativesPage: React.FC = () => {
             {Array.from({ length: 12 }).map((_, i) => (
               <div
                 key={i}
-                className="rounded-2xl bg-neutral-900/50 border border-neutral-800/70 p-4 h-[106px] flex flex-col justify-between animate-pulse w-full min-w-0"
+                className="rounded-2xl bg-neutral-900/50 border border-neutral-800/70 p-4 h-[114px] flex flex-col justify-between animate-pulse w-full min-w-0"
               >
                 <div className="flex items-center space-x-2.5">
                   <div className="w-5 h-5 rounded bg-neutral-800 flex-shrink-0" />
@@ -191,7 +203,13 @@ export const AlternativesPage: React.FC = () => {
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
             {sites.map((site) => {
               const isCopied = copiedId === site.id;
-              const desc = cleanDescription(site.description);
+              const rawDesc = site.description || '';
+              const lines = rawDesc
+                .split('\n')
+                .map((l) => l.trim())
+                .filter(Boolean);
+              const line1 = lines[0] || rawDesc;
+              const line2 = lines.length > 1 ? lines.slice(1).join(' ') : '';
               const initials = site.name.replace(/[^a-zA-Z0-9]/g, '').slice(0, 2).toUpperCase() || 'AN';
 
               return (
@@ -200,7 +218,7 @@ export const AlternativesPage: React.FC = () => {
                   href={site.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative rounded-2xl bg-neutral-900/60 hover:bg-neutral-900/95 border border-neutral-800/80 hover:border-brand-red/40 p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_-5px_rgba(229,9,20,0.22)] cursor-pointer block overflow-hidden flex flex-col justify-between min-h-[104px] w-full min-w-0"
+                  className="group relative rounded-2xl bg-neutral-900/60 hover:bg-neutral-900/95 border border-neutral-800/80 hover:border-brand-red/40 p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_10px_25px_-5px_rgba(229,9,20,0.22)] cursor-pointer overflow-hidden flex flex-col justify-between min-h-[114px] w-full min-w-0"
                   title={`${site.name} — ${site.url}`}
                 >
                   {/* Top-Right Faint Watermark (Oswald display font monogram) */}
@@ -210,8 +228,9 @@ export const AlternativesPage: React.FC = () => {
                     </span>
                   </div>
 
-                  {/* Top Row: Raw Favicon + Title (Ubuntu) + Category/Copy (Lato) */}
+                  {/* Card Content */}
                   <div>
+                    {/* Top Row: Raw Favicon + Title (Ubuntu) + Category/Copy (Lato) */}
                     <div className="flex items-center justify-between gap-2 mb-2">
                       <div className="flex items-center space-x-2.5 min-w-0 flex-1">
                         {/* Raw Favicon (No background circle, clean 20px icon, automatic fallback to theme icon on 404/error) */}
@@ -253,10 +272,21 @@ export const AlternativesPage: React.FC = () => {
                       </div>
                     </div>
 
-                    {/* Exact 2-Line Description (Inter Font - ultra-crisp, professional readability) */}
-                    <p className="text-[12.5px] leading-snug text-neutral-400 font-sans line-clamp-2 group-hover:text-neutral-300 transition-colors">
-                      {desc}
-                    </p>
+                    {/* Exact 2-Line Description: Line 1 + Line 2 */}
+                    <div className="mt-1 space-y-0.5">
+                      <p className="text-[12px] leading-tight text-neutral-300 font-sans truncate" title={line1}>
+                        {line1}
+                      </p>
+                      {line2 ? (
+                        <p className="text-[11.5px] leading-tight text-neutral-400 font-sans truncate group-hover:text-neutral-300 transition-colors" title={line2}>
+                          {line2}
+                        </p>
+                      ) : (
+                        <p className="text-[11.5px] leading-tight text-neutral-500 font-sans truncate italic">
+                          Verified anime resource & platform
+                        </p>
+                      )}
+                    </div>
                   </div>
 
                 </a>

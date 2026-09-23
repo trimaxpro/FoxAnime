@@ -17,6 +17,7 @@ interface Site {
   name: string;
   url: string;
   description: string;
+  category?: string;
 }
 
 export const onRequestGet = async ({ env }: { env: Env }): Promise<Response> => {
@@ -29,7 +30,7 @@ export const onRequestGet = async ({ env }: { env: Env }): Promise<Response> => 
     }
 
     const { results } = await env.DB.prepare(
-      'SELECT id, name, url, description FROM anime_sites ORDER BY id'
+      'SELECT id, name, url, description, category FROM anime_sites ORDER BY id'
     ).all<Site>();
 
     return Response.json(results, {

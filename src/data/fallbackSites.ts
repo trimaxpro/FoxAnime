@@ -165,7 +165,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "animepahe-dl",
     "url": "https://github.com/KevCui/animepahe-dl",
     "description": "Fast automated command-line downloader for fetching episodes from AnimePahe.\nSupports batch downloads, custom resolution filters, and resume capability.",
@@ -177,7 +177,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "KickAssAnime",
     "url": "https://kaa.lt/",
     "description": "Popular full-featured streaming hub with multi-server 1080p streams.\nEquipped with automatic next episode transitions and comprehensive schedule calendar.",
@@ -189,7 +189,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "MKissa",
     "url": "https://mkissa.to/",
     "description": "Clean streaming portal offering an extensive catalog of subbed and dubbed anime.\nFast video player with minimal buffering and intuitive episode navigation.",
@@ -201,7 +201,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "All Manga",
     "url": "https://allmanga.to/",
     "description": "Multi-media streaming and reading portal covering both anime series and manga.\nOffers high quality sub and dub streams alongside synchronized chapter releases.",
@@ -213,7 +213,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "AnimeX",
     "url": "https://animex.one/",
     "description": "Modern anime platform with automatic episode progression and responsive controls.\nBrowse seasonal anime, trending picks, and classic retro series in full HD.",
@@ -225,7 +225,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "Anikoto",
     "url": "https://anikototv.to/",
     "description": "Fast-loading streaming site featuring high bitrate video feeds and minimal ads.\nSupports auto-skip intro, multiple backup players, and synchronized subtitles.",
@@ -237,7 +237,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "Anisuge",
     "url": "https://animesuge.cz/",
     "description": "Sleek streaming destination with instant episode autoplay and clean dark aesthetics.\nFeatures broad sub and dub catalogs with real-time release schedules.",
@@ -249,7 +249,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "Anikoto Backup",
     "url": "https://anikoto.site/",
     "description": "Official backup destination for Anikoto to ensure round-the-clock streaming uptime.\nPreserves your browsing session with mirror links and identical video sources.",
@@ -261,7 +261,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "Anisuge Backup",
     "url": "https://animesuge.bid/",
     "description": "Dedicated secondary proxy server providing uninterrupted Anisuge video feeds.\nHigh-speed caching layer optimized for smooth mobile and desktop playback.",
@@ -273,7 +273,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "Anidap",
     "url": "https://anidap.lol/",
     "description": "Lightweight anime streaming website focusing on simplicity and quick playback.\nDual-audio sub and dub libraries with responsive controls and auto-next.",
@@ -285,7 +285,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "Re:ANIME",
     "url": "https://reanime.to/",
     "description": "Polished streaming portal featuring seamless auto-next episode transitions.\nComprehensive collection of seasonal releases with customizable video player.",
@@ -297,7 +297,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "Re:ANIME mirror (cz)",
     "url": "https://reanime.cz/",
     "description": "Central European mirror for Re:ANIME with low-latency CDN streaming servers.\nFull access to subbed and dubbed catalogs with identical streaming quality.",
@@ -309,7 +309,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "Re:ANIME mirror (wtf)",
     "url": "https://reanime.wtf/",
     "description": "Global alternate proxy endpoint providing resilient access to Re:ANIME content.\nOffers high-definition video playback with multi-server failover options.",
@@ -321,7 +321,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 28,
+    "id": 27,
     "name": "Reindex",
     "url": "https://reindex.to/",
     "description": "Specialized directory indexing reliable anime streaming mirrors and domain changes.\nKeeps track of active backup addresses and provides one-click gateway links.",
@@ -333,7 +333,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 29,
+    "id": 28,
     "name": "Restatus",
     "url": "https://restatus.me/",
     "description": "Real-time monitoring hub checking online status across popular anime websites.\nProvides instant ping benchmarks and service availability reports.",
@@ -345,7 +345,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 30,
+    "id": 29,
     "name": "Anistream",
     "url": "https://anistream.one/",
     "description": "Streamlined video portal delivering 1080p anime episodes with zero clutter.\nFeatures auto-next countdowns, dub selections, and fast search filtering.",
@@ -357,7 +357,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 31,
+    "id": 30,
     "name": "Kazora",
     "url": "https://kazora.cc/",
     "description": "Contemporary anime streaming interface with smooth navigation and crisp audio.\nIncludes seasonal broadcast timelines and automated next episode loading.",
@@ -369,7 +369,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 32,
+    "id": 31,
     "name": "Lunar",
     "url": "https://lunarx.to/",
     "description": "Quiet, minimal streaming website focused on pure playback performance.\nExtensive sub and dub anime catalog organized by genre and seasonal release.",
@@ -381,7 +381,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "name": "KuroAnime",
     "url": "https://kuroanime.lol/",
     "description": "Feature-packed streaming platform with high quality video and episode auto-next.\nQuick search with instant results and flexible subtitle synchronization.",
@@ -393,7 +393,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "name": "NekoWatch",
     "url": "https://nekowatch.xyz/",
     "description": "Clean anime portal offering dual audio tracks and customizable player skins.\nSeamless auto-advance to next episode with minimal interruption.",
@@ -405,7 +405,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "name": "JustAnime",
     "url": "https://justanime.to/",
     "description": "Fast-loading streaming site featuring multiple video hosting mirrors.\nBrowse thousands of anime titles with auto-next and seasonal schedule guides.",
@@ -417,7 +417,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 36,
+    "id": 35,
     "name": "JustAnime Mirrors",
     "url": "https://projectjust.xyz/",
     "description": "Official repository of backup mirrors and proxy URLs for the JustAnime network.\nBookmark this portal to bypass regional ISP blocks and domain suspensions.",
@@ -429,7 +429,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 37,
+    "id": 36,
     "name": "AniLight",
     "url": "https://anilight.live/",
     "description": "Speed-optimized streaming engine designed for low-bandwidth environments.\nSupports continuous autoplay, multiple subtitle languages, and dub options.",
@@ -441,7 +441,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 38,
+    "id": 37,
     "name": "AniKuro",
     "url": "https://anikuro.to/",
     "description": "Community streaming hub with dedicated sub and dub video servers.\nFeatures clean episode listings, genre tags, and responsive playback.",
@@ -453,7 +453,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 39,
+    "id": 38,
     "name": "AniKuro mirror",
     "url": "https://anikuro.ru/",
     "description": "High-capacity mirror domain for the AniKuro anime streaming catalog.\nGuarantees reliable streaming during peak seasonal anime release hours.",
@@ -465,7 +465,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 40,
+    "id": 39,
     "name": "AniKuro Status",
     "url": "https://anikuro.site/",
     "description": "Official health monitoring page displaying live server performance for AniKuro.\nTracks player uptime, database sync status, and latest domain updates.",
@@ -477,7 +477,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 41,
+    "id": 40,
     "name": "MeguAnimes",
     "url": "https://meguanime.com/",
     "description": "Playful, responsive streaming site featuring HD anime streams with auto-next.\nOffers dual-audio options, bookmarks, and fast episode navigation.",
@@ -489,19 +489,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 42,
-    "name": "Aniwave",
-    "url": "https://aniwave.gr/",
-    "description": "High-definition streaming platform with advanced player controls and watch history.\nExtensive library of subbed and dubbed anime with automated episode progression.",
-    "category": "streaming",
-    "tags": [
-      "Sub / Dub",
-      "Auto-Next",
-      "Watch History"
-    ]
-  },
-  {
-    "id": 43,
+    "id": 41,
     "name": "HiAnime mirror",
     "url": "https://hianimes.ru/",
     "description": "Official secondary mirror for HiAnime providing identical 1080p anime catalog.\nFeatures multi-language audio, auto-skip intro/outro, and synchronized subs.",
@@ -513,7 +501,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 44,
+    "id": 42,
     "name": "123anime",
     "url": "https://123animehub.cc/",
     "description": "Reliable classic streaming directory delivering fast episodes with minimal buffering.\nFeatures auto-next playback, English dubs, and complete movie archives.",
@@ -525,7 +513,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 45,
+    "id": 43,
     "name": "Senshi",
     "url": "https://senshi.to/",
     "description": "Fast-paced streaming interface designed for binge-watching seasonal anime.\nIncludes continuous episode autoplay and multiple streaming server choices.",
@@ -537,7 +525,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 46,
+    "id": 44,
     "name": "AniZone",
     "url": "https://anizone.to/",
     "description": "Focused subtitle-first streaming platform offering crisp Japanese audio tracks.\nNeat categorical index covering action, shonen, romance, and fantasy series.",
@@ -549,7 +537,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 47,
+    "id": 45,
     "name": "AniDoor",
     "url": "https://anidoor.me/",
     "description": "Modern doorway to thousands of subbed and dubbed anime titles in full HD.\nEquipped with auto-next episode triggers and responsive video playback.",
@@ -561,7 +549,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 48,
+    "id": 46,
     "name": "AniSnatch",
     "url": "https://anisnatch.top/",
     "description": "Lightweight video player delivering fast episode streams across all devices.\nFeatures clear sub and dub categorization and quick episode jump controls.",
@@ -573,7 +561,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 49,
+    "id": 47,
     "name": "AniSnatch mirror",
     "url": "https://anisnatch.site/",
     "description": "Official secondary server for AniSnatch to ensure continuous video availability.\nMaintains full access to anime series archives with low latency speeds.",
@@ -585,7 +573,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 50,
+    "id": 48,
     "name": "AnimeStream",
     "url": "https://anime.uniquestream.net/",
     "description": "Optimized 720p/1080p streaming platform prioritizing rapid load times.\nClean subtitle formatting and well-maintained catalog of ongoing seasonals.",
@@ -597,7 +585,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 51,
+    "id": 49,
     "name": "KoToTV",
     "url": "https://kototv.to/",
     "description": "Versatile streaming portal offering high-definition sub and dub video streams.\nFeatures automated episode progression and detailed episode synopsis.",
@@ -609,7 +597,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 52,
+    "id": 50,
     "name": "Anime Nexus",
     "url": "https://anime.nexus/",
     "description": "Community hub connecting anime fans with verified HD streaming links.\nOrganized sub and dub collections with intuitive search and genre filters.",
@@ -621,7 +609,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 53,
+    "id": 51,
     "name": "LuffyTV",
     "url": "https://luffytv.live/",
     "description": "Ad-light streaming portal dedicated to long-running shonen and seasonal anime.\nSmooth video player with multiple server fallbacks and dub support.",
@@ -633,7 +621,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 54,
+    "id": 52,
     "name": "LuffyTV mirror",
     "url": "https://luffytv.online/",
     "description": "High-speed backup mirror for LuffyTV providing reliable uninterrupted streams.\nBypasses network congestion with dedicated video CDN delivery.",
@@ -645,7 +633,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 55,
+    "id": 53,
     "name": "AniChan",
     "url": "https://anichan.to/",
     "description": "Comfortable anime viewer offering crisp Japanese audio with English subtitles.\nBrowse seasonal anime releases with clean episode lists and descriptions.",
@@ -657,7 +645,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 56,
+    "id": 54,
     "name": "AnimeParadise",
     "url": "https://www.animeparadise.moe/",
     "description": "Expansive library of popular anime series, OVA specials, and theatrical movies.\nSupports dual-audio sub and dub streams with responsive controls.",
@@ -669,7 +657,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 57,
+    "id": 55,
     "name": "AnimeDex",
     "url": "https://animedex.fun/",
     "description": "Open-source, lightning-fast anime streaming web app with clean modern UI.\nPulls video streams from multiple providers with zero intrusive ads.",
@@ -681,7 +669,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 58,
+    "id": 56,
     "name": "Anify",
     "url": "https://anify.to/",
     "description": "Decentralized anime discovery and streaming portal built with modern web tech.\nAggregates high-bitrate video feeds, accurate metadata, and subtitle sync.",
@@ -693,7 +681,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 59,
+    "id": 57,
     "name": "AniDB (.app)",
     "url": "https://anidb.app/",
     "description": "Fast streaming client and database frontend for exploring vast anime archives.\nFeatures detailed character bios, episode guides, and multi-server links.",
@@ -705,7 +693,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 60,
+    "id": 58,
     "name": "Enma",
     "url": "https://www.enma.lol/",
     "description": "Sleek dark-themed streaming website with auto-next and custom video player.\nComprehensive collection of seasonal anime, movies, and completed series.",
@@ -717,7 +705,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 61,
+    "id": 59,
     "name": "Anikura",
     "url": "https://anikura.club/",
     "description": "Smooth streaming hub with easy navigation between subbed and dubbed episodes.\nFast video buffering with clear quality selectors up to full 1080p.",
@@ -729,7 +717,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 62,
+    "id": 60,
     "name": "1Anime",
     "url": "https://1ani.me/",
     "description": "Modern video player delivering high-definition anime with automated next episode.\nFeatures clean search filters, dub toggles, and bookmark watchlist.",
@@ -741,7 +729,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 63,
+    "id": 61,
     "name": "Kyren",
     "url": "https://kyren.moe/",
     "description": "Aesthetic streaming portal offering high-definition video playback.\nCurated anime collections with synchronized subtitles and responsive layout.",
@@ -753,7 +741,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 64,
+    "id": 62,
     "name": "Yenime",
     "url": "https://yenime.net/",
     "description": "Fresh anime streaming site with fast CDN nodes and minimal buffering.\nIncludes both English subbed and dubbed options across top series.",
@@ -765,7 +753,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 65,
+    "id": 63,
     "name": "AnimeNoSub",
     "url": "https://animenosub.to/",
     "description": "Dedicated repository of raw Japanese anime broadcasts without hard subtitles.\nIdeal for Japanese language learners, video editors, and AMV creators.",
@@ -777,7 +765,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 66,
+    "id": 64,
     "name": "AnimeOnsen",
     "url": "https://animeonsen.xyz/",
     "description": "Ad-free community anime platform built with smooth native video controls.\nOptimized for fast streaming with clean subtitles and open-source backend.",
@@ -789,7 +777,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 67,
+    "id": 65,
     "name": "Yomi",
     "url": "https://yomi.to/",
     "description": "Polished anime streaming destination featuring seamless auto-next autoplay.\nDiscover top-rated anime series with high-quality English subs and dubs.",
@@ -801,7 +789,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 68,
+    "id": 66,
     "name": "Babyanime",
     "url": "https://babyanime.top/",
     "description": "Compact, quick-loading streaming portal with straightforward episode listings.\nOffers multi-server video links with sub and dub audio support.",
@@ -813,7 +801,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 69,
+    "id": 67,
     "name": "AniClipse",
     "url": "https://aniclipse.com/",
     "description": "Vibrant anime streaming site featuring trending seasonal titles and classics.\nHigh-definition video playback with easy episode navigation controls.",
@@ -825,7 +813,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 70,
+    "id": 68,
     "name": "AniHQ",
     "url": "https://anihq.cc/",
     "description": "High-definition video portal focusing on top-tier video and audio quality.\nComprehensive sub and dub library updated daily with new simulcasts.",
@@ -837,7 +825,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 71,
+    "id": 69,
     "name": "Luna",
     "url": "https://luna-stream.me/",
     "description": "Elegant streaming client with clean typography and distraction-free playback.\nBrowse seasonal anime and classic archives in crisp 1080p resolution.",
@@ -849,7 +837,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 72,
+    "id": 70,
     "name": "AniNami",
     "url": "https://aninami.site/",
     "description": "Smooth streaming portal offering quick access to latest anime broadcasts.\nEquipped with dual audio selections and multiple server redundancy.",
@@ -861,7 +849,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 73,
+    "id": 71,
     "name": "Rive Anime",
     "url": "https://www.rivestream.app/",
     "description": "Modern progressive web app interface with auto-next and custom controls.\nStreams high quality anime with subtitle personalization options.",
@@ -873,7 +861,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 74,
+    "id": 72,
     "name": "Rive Anime mirror",
     "url": "https://rivestream.ru/",
     "description": "Official secondary mirror for Rive Anime ensuring 24/7 global availability.\nMaintains full playlist sync and low-latency streaming CDN routes.",
@@ -885,7 +873,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 75,
+    "id": 73,
     "name": "Rive Anime Status",
     "url": "https://rentry.co/rivestream",
     "description": "Official network status and maintenance notice board for Rive Anime services.\nStay informed on domain migrations, server patches, and feature updates.",
@@ -897,7 +885,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 76,
+    "id": 74,
     "name": "Kawaii Anime",
     "url": "https://kawaiianime.cc/",
     "description": "Charming streaming site offering thousands of anime series in HD quality.\nFeatures dual audio sub/dub switches and fast auto-next transitions.",
@@ -909,7 +897,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 77,
+    "id": 75,
     "name": "FireAnime",
     "url": "https://fireani.me/",
     "description": "High-speed streaming portal built for seamless TV and desktop anime viewing.\nDelivers crisp subtitles, fast buffer times, and organized genre filters.",
@@ -921,7 +909,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 78,
+    "id": 76,
     "name": "9anime",
     "url": "https://9animstv.to/",
     "description": "One of the most famous anime streaming platforms with massive title archives.\nFeatures multiple audio tracks, auto-skip intro/outro, and 1080p playback.",
@@ -933,7 +921,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 79,
+    "id": 77,
     "name": "bAnime",
     "url": "https://banime.dedyn.io/",
     "description": "Minimalist ad-free anime player delivering pure video streaming enjoyment.\nFeatures sub and dub options with automated next-episode progression.",
@@ -945,7 +933,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 80,
+    "id": 78,
     "name": "PirateXplay",
     "url": "https://piratexplay.cc/home",
     "description": "Dedicated streaming portal with clean video playback and rapid load times.\nBrowse ongoing seasonal broadcasts with high-definition subtitles.",
@@ -957,7 +945,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 81,
+    "id": 79,
     "name": "PirateXplay mirror",
     "url": "https://piratexplay.com/",
     "description": "Official backup server providing uninterrupted access to PirateXplay.\nFast mirror servers ensuring low latency and reliable playback.",
@@ -969,7 +957,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 82,
+    "id": 80,
     "name": "Kuroiru",
     "url": "https://kuroiru.co/",
     "description": "Multi-site unified anime search engine scanning multiple streaming platforms.\nFind where any anime episode is currently streaming with one single query.",
@@ -981,7 +969,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 84,
+    "id": 81,
     "name": "AnimeXin",
     "url": "https://animexin.dev/",
     "description": "Premier portal for Chinese animation (Donghua) with quality English subtitles.\nDaily uploads of 3D cultivation, action, and fantasy Donghua series.",
@@ -993,7 +981,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 85,
+    "id": 82,
     "name": "Lucifer Donghua",
     "url": "https://luciferdonghua.in/",
     "description": "Dedicated streaming platform focusing on high-definition Donghua releases.\nComprehensive archives of ongoing cultivation and martial arts series.",
@@ -1005,7 +993,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 86,
+    "id": 83,
     "name": "LMANIME",
     "url": "https://lmanime.com/",
     "description": "Specialized Donghua streaming website featuring crisp English subtitles.\nFast video players with multi-server options and complete season packs.",
@@ -1017,7 +1005,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 87,
+    "id": 84,
     "name": "CKSub",
     "url": "https://donghua4k.net/",
     "description": "Ultra HD 4K and 1080p Donghua streaming hub with professional fansubs.\nFeatures top-tier Chinese 3D anime series with high-bitrate video feeds.",
@@ -1029,7 +1017,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 88,
+    "id": 85,
     "name": "MyAnime",
     "url": "https://myanime.live/",
     "description": "Rich streaming catalog featuring both Japanese anime and Chinese Donghua.\nClean subtitle synchronization with multiple high-speed server choices.",
@@ -1041,7 +1029,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 89,
+    "id": 86,
     "name": "AnimeKhor",
     "url": "https://animekhor.org/",
     "description": "Leading Donghua and anime translation portal with high-speed video players.\nExtensive collections of ongoing fantasy Donghua with clear English subs.",
@@ -1053,7 +1041,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 90,
+    "id": 87,
     "name": "Crimson Subs",
     "url": "https://crimsonfansubs.com/",
     "description": "Dedicated fansub group and streaming site for premium Donghua series.\nHigh-bitrate encodes with accurate translations and timely weekly releases.",
@@ -1065,7 +1053,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 91,
+    "id": 88,
     "name": "HiAnime",
     "url": "https://hianimes.se/",
     "description": "Top-tier anime streaming giant featuring multi-server 1080p video feeds.\nIncludes auto-skip intro/outro, synchronized subs, dubs, and live comments.",
@@ -1077,7 +1065,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 92,
+    "id": 89,
     "name": "Aniwatch",
     "url": "https://aniwatch.co.at/",
     "description": "Leading streaming hub with watch2gether rooms and zero forced redirects.\nOffers high-bitrate sub and dub streams with customizable subtitle styling.",
@@ -1089,7 +1077,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 93,
+    "id": 90,
     "name": "GogoAnime",
     "url": "https://gogoanime.or.at/",
     "description": "The classic anime streaming powerhouse with the largest historical episode archive.\nFastest simulcast uploads with multiple video host mirrors and mobile support.",
@@ -1101,7 +1089,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 94,
+    "id": 91,
     "name": "Zoro.to",
     "url": "https://zorotv.com.in/",
     "description": "Massively popular streaming interface designed for fast, seamless binge watching.\nFeatures multi-language audio, episode schedules, and zero-buffering playback.",
@@ -1113,7 +1101,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 96,
+    "id": 92,
     "name": "YugenAnime",
     "url": "https://yugenanime.tv",
     "description": "Minimalist, ad-light streaming destination with tracking and custom watchlists.\nFeatures clean 1080p video player with smooth keyboard scrubbing controls.",
@@ -1125,7 +1113,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 98,
+    "id": 93,
     "name": "AnimeKai",
     "url": "https://animekai.com.ro/",
     "description": "Community-driven streaming directory featuring 1080p episodes and seasonal charts.\nFast multi-server failover with synchronized subtitles and English dubbing.",
@@ -1137,7 +1125,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 99,
+    "id": 94,
     "name": "AnimeHeaven",
     "url": "https://animeheaven.me",
     "description": "Lightweight and mobile-friendly anime streaming site with quick episode search.\nIncludes complete seasonal series, movies, and OVAs with download options.",
@@ -1149,7 +1137,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 100,
+    "id": 95,
     "name": "AnimeDao",
     "url": "https://animedao.in/",
     "description": "Speedy streaming portal with simple layout and daily updated simulcast releases.\nBrowse top-rated anime series with low-bandwidth video player options.",
@@ -1161,19 +1149,20 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 101,
+    "id": 96,
     "name": "Nyaa",
     "url": "https://nyaa.si",
     "description": "The world's largest open community torrent index for raw and subbed anime media.\nHigh-speed peer-to-peer distribution for 4K remuxes, BDMVs, and fansubs.",
     "category": "torrent",
     "tags": [
       "Torrent",
-      "Raw & Sub",
-      "High Quality"
+      "Torrent Index",
+      "4K Remux",
+      "Fansubs"
     ]
   },
   {
-    "id": 102,
+    "id": 97,
     "name": "SubsPlease",
     "url": "https://subsplease.org",
     "description": "Premier release group providing direct high-definition anime episode downloads.\nSimulcast releases with multi-resolution 1080p, 720p, and 480p MKV files.",
@@ -1185,7 +1174,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 103,
+    "id": 98,
     "name": "AnimeFrenzy",
     "url": "https://animefrenzy.cc/watch/59970/1",
     "description": "Dedicated anime streaming hub featuring comprehensive English dub collections.\nUpdated continuously with ongoing seasonal broadcasts and community chat.",
@@ -1197,7 +1186,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 107,
+    "id": 99,
     "name": "AnimeFlv",
     "url": "https://animeflv.or.at/",
     "description": "The undisputed giant of Spanish-subbed anime streaming with massive archives.\nLightning-fast video servers with active community comments and mobile app.",
@@ -1209,7 +1198,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 108,
+    "id": 100,
     "name": "JKanime",
     "url": "https://jkanime.net",
     "description": "Popular Latin American anime streaming community with immediate simulcasts.\nMultiple video player mirrors with high-speed Latin Spanish subtitle tracks.",
@@ -1221,7 +1210,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 109,
+    "id": 101,
     "name": "AnimeUnity",
     "url": "https://animeunity.site/",
     "description": "Premier Italian-subbed anime portal offering pristine 1080p video encodes.\nFeatures clean catalog navigation, seasonal rankings, and fast load times.",
@@ -1233,7 +1222,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 110,
+    "id": 102,
     "name": "VOSTFREE",
     "url": "https://vostfree.ws",
     "description": "Leading French anime platform offering subbed (VOSTFR) and dubbed (VF) series.\nMulti-host video player with comprehensive archives of ongoing seasonals.",
@@ -1245,7 +1234,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 111,
+    "id": 103,
     "name": "Bilibili Global",
     "url": "https://www.bilibili.tv",
     "description": "Official licensed streaming destination for top-tier anime and Chinese Donghua.\nFeatures multi-language official subtitles, bullet comments, and 1080p/4K.",
@@ -1257,7 +1246,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 112,
+    "id": 104,
     "name": "Kuramanime",
     "url": "https://kuramanime.run",
     "description": "Popular Indonesian anime streaming portal with batch episode downloads.\nClean user dashboard with Discord integration and fast video mirrors.",
@@ -1269,9 +1258,9 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 116,
+    "id": 105,
     "name": "Kitsu",
-    "url": "https://kitsu.io",
+    "url": "https://kitsu.app",
     "description": "Contemporary anime discovery engine with personalized recommendation feeds.\nTrack your episode progress across devices with smooth mobile apps.",
     "category": "index",
     "tags": [
@@ -1281,7 +1270,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 117,
+    "id": 106,
     "name": "LiveChart.me",
     "url": "https://www.livechart.me",
     "description": "Real-time seasonal anime countdown charts and official legal stream links.\nFeatures weekly broadcast schedules, studio details, and PV trailers.",
@@ -1293,7 +1282,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 120,
+    "id": 107,
     "name": "4Anime",
     "url": "https://4anime.com.ro/",
     "description": "Clean anime streaming site built for high-bitrate video and fast search.\nOffers dual-audio sub and dub libraries with responsive controls.",
@@ -1305,7 +1294,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 121,
+    "id": 108,
     "name": "Hanime",
     "url": "https://hanime.tv",
     "description": "Leading high-definition adult animation (18+) streaming portal with fast CDN.\nFeatures 1080p video player, playlist management, and comprehensive tags.",
@@ -1317,7 +1306,7 @@ export const FALLBACK_SITES: AnimeSite[] = [
     ]
   },
   {
-    "id": 122,
+    "id": 109,
     "name": "Sankaku Complex",
     "url": "https://sankakucomplex.com",
     "description": "Pop-culture news, anime media hub, and visual art archive for fans.\nCovers anime industry news, gaming releases, and Japanese subculture.",
