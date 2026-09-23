@@ -71,8 +71,22 @@ export async function fetchSakugabooruClips(limit: number = 20): Promise<Sakugab
   const randomPage = Math.floor(Math.random() * 15) + 1;
   const targetUrl = `https://www.sakugabooru.com/post.json?limit=${limit}&page=${randomPage}&tags=rating:s`;
 
+  // 1. Try local dev server proxy first (avoids CORS completely)
   try {
-    // 1. Try Direct API Call first
+    const localRes = await fetch(`/api/sakugabooru?limit=${limit}&page=${randomPage}`);
+    if (localRes.ok) {
+      const data: SakugabooruPost[] = await localRes.json();
+      const validClips = filterVideoPosts(data);
+      if (validClips.length > 0) {
+        return shuffleArray(validClips);
+      }
+    }
+  } catch {
+    // Continue to next fallback
+  }
+
+  // 2. Try Direct API Call
+  try {
     const res = await fetch(targetUrl, {
       headers: {
         'Accept': 'application/json'
@@ -86,12 +100,12 @@ export async function fetchSakugabooruClips(limit: number = 20): Promise<Sakugab
         return shuffleArray(validClips);
       }
     }
-  } catch (err) {
-    console.warn('Direct Sakugabooru API fetch failed or blocked by CORS. Attempting CORS proxy...', err);
+  } catch {
+    // CORS or network failure expected in browser, continue to proxy
   }
 
+  // 3. Try CORS Proxy Fallback
   try {
-    // 2. Try CORS Proxy Fallback
     const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
     const proxyRes = await fetch(proxyUrl);
     if (proxyRes.ok) {
@@ -101,11 +115,11 @@ export async function fetchSakugabooruClips(limit: number = 20): Promise<Sakugab
         return shuffleArray(validClips);
       }
     }
-  } catch (err) {
-    console.warn('CORS proxy fetch failed. Using fallback curated clips.', err);
+  } catch {
+    // Fall back quietly
   }
 
-  // 3. Fail-safe curated posts fallback
+  // 4. Fail-safe curated posts fallback
   return shuffleArray(FALLBACK_POSTS);
 }
 

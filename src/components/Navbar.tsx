@@ -1,22 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Monitor } from 'lucide-react';
+import { Sparkles, Globe } from 'lucide-react';
 
-export const Navbar: React.FC = () => {
+export type NavPage = 'home' | 'alternatives';
+
+interface NavbarProps {
+  page: NavPage;
+  onNavigate: (page: NavPage) => void;
+}
+
+export const Navbar: React.FC<NavbarProps> = ({ page, onNavigate }) => {
   const [scrolled, setScrolled] = useState(false);
-  const [activeNav, setActiveNav] = useState<'hero' | 'showcase'>('hero');
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
-      const showcaseElem = document.getElementById('showcase');
-      if (showcaseElem) {
-        const rect = showcaseElem.getBoundingClientRect();
-        if (rect.top <= 200) {
-          setActiveNav('showcase');
-        } else {
-          setActiveNav('hero');
-        }
-      }
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -48,44 +45,38 @@ export const Navbar: React.FC = () => {
           </div>
         </a>
 
-        {/* Refined Comic Radio Navigation Pill for Home & Preview */}
+        {/* Refined Comic Radio Navigation Pill for Home & Website */}
         <nav className="hidden md:flex items-center">
           <div className="comic-radio-wrapper">
-            <div className="comic-radio-option">
+            <label className="comic-radio-option">
               <input
                 type="radio"
                 name="nav-btn"
                 id="nav-home"
                 className="comic-radio-input"
-                checked={activeNav === 'hero'}
-                onChange={() => {
-                  setActiveNav('hero');
-                  document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' });
-                }}
+                checked={page === 'home'}
+                onChange={() => onNavigate('home')}
               />
               <div className="comic-radio-btn">
                 <Sparkles className="w-4 h-4 text-neutral-400 transition-colors flex-shrink-0" />
                 <span className="comic-radio-span">Home</span>
               </div>
-            </div>
+            </label>
 
-            <div className="comic-radio-option">
+            <label className="comic-radio-option">
               <input
                 type="radio"
                 name="nav-btn"
-                id="nav-preview"
+                id="nav-alternatives"
                 className="comic-radio-input"
-                checked={activeNav === 'showcase'}
-                onChange={() => {
-                  setActiveNav('showcase');
-                  document.getElementById('showcase')?.scrollIntoView({ behavior: 'smooth' });
-                }}
+                checked={page === 'alternatives'}
+                onChange={() => onNavigate('alternatives')}
               />
               <div className="comic-radio-btn">
-                <Monitor className="w-4 h-4 text-neutral-400 transition-colors flex-shrink-0" />
-                <span className="comic-radio-span">Preview</span>
+                <Globe className="w-4 h-4 text-neutral-400 transition-colors flex-shrink-0" />
+                <span className="comic-radio-span">Alternatives</span>
               </div>
-            </div>
+            </label>
           </div>
         </nav>
 

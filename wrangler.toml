@@ -1,0 +1,8 @@
+name = "fox-anime-website"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fox-anime-index"
+database_id = "6f0859ad-2ff6-4347-8061-793df011f94a"

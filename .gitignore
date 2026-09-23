@@ -7,10 +7,41 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+
+# Local Environment & Secrets
+.env
+.env.local
+.env.*.local
 *.local
+
+# Cloudflare & Miniflare local runtime state
+.wrangler/
+.mf/
+
+# SQLite databases & temp files
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.db
+*.db-journal
+*.tmp
+*.temp
+
+# Ads scripts
+public/anti-adblock.js
+anti-adblock.js
+
+# Scratch & temporary development scripts
+scratch/
+temp/
+*.test.js
+test_*.js
 
 # Editor directories and files
 .vscode/*

@@ -26,8 +26,8 @@ export const LegalModal: React.FC<LegalModalProps> = ({ type, onClose }) => {
           body: 'All your app settings, episode watch history timestamps, and saved favorites are saved locally on your Windows PC inside local storage. None of this data is ever transmitted to external servers.',
         },
         {
-          heading: '3. No Advertising or Telemetry Trackers',
-          body: 'Fox Anime is 100% free desktop software. The application contains zero ad trackers, analytics scripts, background logging, or third-party advertising modules.',
+          heading: '3. Advertising Notice',
+          body: 'Fox Anime is 100% free desktop software. The anime section does not show ads. The adult (hentai) section may display third-party ad links; the app itself contains no tracking or analytics scripts.',
         },
       ],
     },

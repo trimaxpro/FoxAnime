@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "name": "Anime Streaming Apps",
+    "url": "https://fmhy.net/video/#anime-streaming-apps",
+    "description": "Curated community index of top open-source anime streaming clients and applications.\nProvides verified direct links, setup guides, and safety ratings for all platforms.",
+    "category": "index",
+    "tags": [
+      "Index",
+      "Apps",
+      "Open Source"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Wotaku",
+    "url": "https://wotaku.wiki/websites",
+    "description": "Comprehensive otaku directory listing reliable anime, manga, and light novel resources.\nFeatures active domain monitoring, privacy tips, and community-vetted mirrors.",
+    "category": "index",
+    "tags": [
+      "Index",
+      "Wiki",
+      "Directory"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Index",
+    "url": "https://theindex.moe/library/anime",
+    "description": "Well-structured open-source database organizing anime streaming portals and trackers.\nConstantly audited for uptime, ad intrusion levels, and video playback quality.",
+    "category": "index",
+    "tags": [
+      "Index",
+      "Library",
+      "Open Source"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "The Wiki",
+    "url": "https://thewiki.moe/",
+    "description": "Extensive knowledge base documenting media servers, streaming portals, and scraper tools.\nIncludes optimization tips, subtitle guides, and alternative streaming endpoints.",
+    "category": "index",
+    "tags": [
+      "Wiki",
+      "Guides",
+      "Tools"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "EverythingMoe",
+    "url": "https://everythingmoe.com/",
+    "description": "The gold-standard community index comparing dozens of anime streaming services.\nRanks sites by ad density, video resolution, dub availability, and server speed.",
+    "category": "index",
+    "tags": [
+      "Index",
+      "Rankings",
+      "Reviews"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "EverythingMoe (mirror)",
+    "url": "https://everythingmoe.org/",
+    "description": "High-speed official backup mirror for the EverythingMoe community directory.\nProvides uninterrupted access when the primary domain encounters DNS blocks.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "Backup",
+      "Index"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Miruro",
+    "url": "https://www.miruro.com/",
+    "description": "Ultra-fast modern anime player supporting soft & hard subtitles with English dubs.\nIncludes automated next episode playback, custom themes, and progress sync.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "1080p"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Miruro (mirror - tv)",
+    "url": "https://miruro.tv/",
+    "description": "Official television-optimized mirror delivering seamless Miruro streaming playback.\nFast CDN failover ensuring low latency streaming during high traffic hours.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "TV Optimized",
+      "Auto-Next"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Miruro (mirror - bz)",
+    "url": "https://miruro.bz/",
+    "description": "Alternate European proxy mirror for continuous Miruro anime streaming access.\nMaintains full playlist sync, watchlist bookmarks, and subtitle options.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "EU Proxy",
+      "Fast CDN"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Miruro (mirror - ru)",
+    "url": "https://miruro.ru/",
+    "description": "Regional mirror providing high-bitrate video streams for Miruro users worldwide.\nFull support for 1080p resolution, keyboard shortcuts, and episode autoplay.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "1080p",
+      "High Speed"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Miruro (mirror - to)",
+    "url": "https://miruro.to/",
+    "description": "Global top-level domain mirror for Miruro featuring identical real-time libraries.\nOffers dual audio options with instant search auto-completion.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "Sub / Dub",
+      "Auto-Next"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Miruro Status",
+    "url": "https://status.miruro.com/",
+    "description": "Live network telemetry and uptime dashboard for all official Miruro domains.\nCheck real-time server health, latency, maintenance alerts, and domain changes.",
+    "category": "tools",
+    "tags": [
+      "Status",
+      "Monitoring",
+      "Uptime"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "animepahe",
+    "url": "https://animepahe.pw/",
+    "description": "Legendary anime streaming platform known for lightweight, low-data 1080p encodes.\nRapid simulcast uploads with dual-audio support and clean, minimalistic design.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Low Data",
+      "1080p"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "animepahe-dl",
+    "url": "https://github.com/KevCui/animepahe-dl",
+    "description": "Fast automated command-line downloader for fetching episodes from AnimePahe.\nSupports batch downloads, custom resolution filters, and resume capability.",
+    "category": "tools",
+    "tags": [
+      "Downloader",
+      "CLI",
+      "Batch Tools"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "KickAssAnime",
+    "url": "https://kaa.lt/",
+    "description": "Popular full-featured streaming hub with multi-server 1080p streams.\nEquipped with automatic next episode transitions and comprehensive schedule calendar.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Multi-Server"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "MKissa",
+    "url": "https://mkissa.to/",
+    "description": "Clean streaming portal offering an extensive catalog of subbed and dubbed anime.\nFast video player with minimal buffering and intuitive episode navigation.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Clean UI",
+      "Simulcast"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "All Manga",
+    "url": "https://allmanga.to/",
+    "description": "Multi-media streaming and reading portal covering both anime series and manga.\nOffers high quality sub and dub streams alongside synchronized chapter releases.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Manga Reader",
+      "Multi-Media"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "AnimeX",
+    "url": "https://animex.one/",
+    "description": "Modern anime platform with automatic episode progression and responsive controls.\nBrowse seasonal anime, trending picks, and classic retro series in full HD.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Full HD"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Anikoto",
+    "url": "https://anikototv.to/",
+    "description": "Fast-loading streaming site featuring high bitrate video feeds and minimal ads.\nSupports auto-skip intro, multiple backup players, and synchronized subtitles.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Auto-Skip"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Anisuge",
+    "url": "https://animesuge.cz/",
+    "description": "Sleek streaming destination with instant episode autoplay and clean dark aesthetics.\nFeatures broad sub and dub catalogs with real-time release schedules.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Dark UI"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Anikoto Backup",
+    "url": "https://anikoto.site/",
+    "description": "Official backup destination for Anikoto to ensure round-the-clock streaming uptime.\nPreserves your browsing session with mirror links and identical video sources.",
+    "category": "mirrors",
+    "tags": [
+      "Backup",
+      "Mirror",
+      "Sub / Dub"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Anisuge Backup",
+    "url": "https://animesuge.bid/",
+    "description": "Dedicated secondary proxy server providing uninterrupted Anisuge video feeds.\nHigh-speed caching layer optimized for smooth mobile and desktop playback.",
+    "category": "mirrors",
+    "tags": [
+      "Backup",
+      "Mirror",
+      "Proxy"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Anidap",
+    "url": "https://anidap.lol/",
+    "description": "Lightweight anime streaming website focusing on simplicity and quick playback.\nDual-audio sub and dub libraries with responsive controls and auto-next.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Fast Load"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Re:ANIME",
+    "url": "https://reanime.to/",
+    "description": "Polished streaming portal featuring seamless auto-next episode transitions.\nComprehensive collection of seasonal releases with customizable video player.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Custom Player"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Re:ANIME mirror (cz)",
+    "url": "https://reanime.cz/",
+    "description": "Central European mirror for Re:ANIME with low-latency CDN streaming servers.\nFull access to subbed and dubbed catalogs with identical streaming quality.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "EU Server",
+      "Sub / Dub"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Re:ANIME mirror (wtf)",
+    "url": "https://reanime.wtf/",
+    "description": "Global alternate proxy endpoint providing resilient access to Re:ANIME content.\nOffers high-definition video playback with multi-server failover options.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "Failover",
+      "Full HD"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Reindex",
+    "url": "https://reindex.to/",
+    "description": "Specialized directory indexing reliable anime streaming mirrors and domain changes.\nKeeps track of active backup addresses and provides one-click gateway links.",
+    "category": "index",
+    "tags": [
+      "Index",
+      "Domain Tracker",
+      "Directory"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Restatus",
+    "url": "https://restatus.me/",
+    "description": "Real-time monitoring hub checking online status across popular anime websites.\nProvides instant ping benchmarks and service availability reports.",
+    "category": "tools",
+    "tags": [
+      "Status",
+      "Latency Checker",
+      "Uptime"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Anistream",
+    "url": "https://anistream.one/",
+    "description": "Streamlined video portal delivering 1080p anime episodes with zero clutter.\nFeatures auto-next countdowns, dub selections, and fast search filtering.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "1080p"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Kazora",
+    "url": "https://kazora.cc/",
+    "description": "Contemporary anime streaming interface with smooth navigation and crisp audio.\nIncludes seasonal broadcast timelines and automated next episode loading.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Crisp Audio"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Lunar",
+    "url": "https://lunarx.to/",
+    "description": "Quiet, minimal streaming website focused on pure playback performance.\nExtensive sub and dub anime catalog organized by genre and seasonal release.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Minimalist",
+      "Fast Stream"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "KuroAnime",
+    "url": "https://kuroanime.lol/",
+    "description": "Feature-packed streaming platform with high quality video and episode auto-next.\nQuick search with instant results and flexible subtitle synchronization.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Fast Search"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "NekoWatch",
+    "url": "https://nekowatch.xyz/",
+    "description": "Clean anime portal offering dual audio tracks and customizable player skins.\nSeamless auto-advance to next episode with minimal interruption.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Custom Themes"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "JustAnime",
+    "url": "https://justanime.to/",
+    "description": "Fast-loading streaming site featuring multiple video hosting mirrors.\nBrowse thousands of anime titles with auto-next and seasonal schedule guides.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Multiple Hosts"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "JustAnime Mirrors",
+    "url": "https://projectjust.xyz/",
+    "description": "Official repository of backup mirrors and proxy URLs for the JustAnime network.\nBookmark this portal to bypass regional ISP blocks and domain suspensions.",
+    "category": "mirrors",
+    "tags": [
+      "Mirrors",
+      "Proxy Gateway",
+      "Bypass"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "AniLight",
+    "url": "https://anilight.live/",
+    "description": "Speed-optimized streaming engine designed for low-bandwidth environments.\nSupports continuous autoplay, multiple subtitle languages, and dub options.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Low Bandwidth"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "AniKuro",
+    "url": "https://anikuro.to/",
+    "description": "Community streaming hub with dedicated sub and dub video servers.\nFeatures clean episode listings, genre tags, and responsive playback.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Community",
+      "Genre Tags"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "AniKuro mirror",
+    "url": "https://anikuro.ru/",
+    "description": "High-capacity mirror domain for the AniKuro anime streaming catalog.\nGuarantees reliable streaming during peak seasonal anime release hours.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "High Capacity",
+      "Sub / Dub"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "AniKuro Status",
+    "url": "https://anikuro.site/",
+    "description": "Official health monitoring page displaying live server performance for AniKuro.\nTracks player uptime, database sync status, and latest domain updates.",
+    "category": "tools",
+    "tags": [
+      "Status",
+      "Monitoring",
+      "Health"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "MeguAnimes",
+    "url": "https://meguanime.com/",
+    "description": "Playful, responsive streaming site featuring HD anime streams with auto-next.\nOffers dual-audio options, bookmarks, and fast episode navigation.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Bookmarks"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Aniwave",
+    "url": "https://aniwave.gr/",
+    "description": "High-definition streaming platform with advanced player controls and watch history.\nExtensive library of subbed and dubbed anime with automated episode progression.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Watch History"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "HiAnime mirror",
+    "url": "https://hianimes.ru/",
+    "description": "Official secondary mirror for HiAnime providing identical 1080p anime catalog.\nFeatures multi-language audio, auto-skip intro/outro, and synchronized subs.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "Auto-Skip",
+      "Multi-Language"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "123anime",
+    "url": "https://123animehub.cc/",
+    "description": "Reliable classic streaming directory delivering fast episodes with minimal buffering.\nFeatures auto-next playback, English dubs, and complete movie archives.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Movie Archives"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Senshi",
+    "url": "https://senshi.to/",
+    "description": "Fast-paced streaming interface designed for binge-watching seasonal anime.\nIncludes continuous episode autoplay and multiple streaming server choices.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Binge Player"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "AniZone",
+    "url": "https://anizone.to/",
+    "description": "Focused subtitle-first streaming platform offering crisp Japanese audio tracks.\nNeat categorical index covering action, shonen, romance, and fantasy series.",
+    "category": "streaming",
+    "tags": [
+      "Subbed",
+      "Japanese Audio",
+      "Categorized"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "AniDoor",
+    "url": "https://anidoor.me/",
+    "description": "Modern doorway to thousands of subbed and dubbed anime titles in full HD.\nEquipped with auto-next episode triggers and responsive video playback.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Full HD"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "AniSnatch",
+    "url": "https://anisnatch.top/",
+    "description": "Lightweight video player delivering fast episode streams across all devices.\nFeatures clear sub and dub categorization and quick episode jump controls.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Mobile Ready",
+      "Quick Jump"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "AniSnatch mirror",
+    "url": "https://anisnatch.site/",
+    "description": "Official secondary server for AniSnatch to ensure continuous video availability.\nMaintains full access to anime series archives with low latency speeds.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "Low Latency",
+      "Sub / Dub"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "AnimeStream",
+    "url": "https://anime.uniquestream.net/",
+    "description": "Optimized 720p/1080p streaming platform prioritizing rapid load times.\nClean subtitle formatting and well-maintained catalog of ongoing seasonals.",
+    "category": "streaming",
+    "tags": [
+      "Subbed",
+      "720p/1080p",
+      "Fast Load"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "KoToTV",
+    "url": "https://kototv.to/",
+    "description": "Versatile streaming portal offering high-definition sub and dub video streams.\nFeatures automated episode progression and detailed episode synopsis.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Synopsis"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Anime Nexus",
+    "url": "https://anime.nexus/",
+    "description": "Community hub connecting anime fans with verified HD streaming links.\nOrganized sub and dub collections with intuitive search and genre filters.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Community Hub",
+      "Genre Filter"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "LuffyTV",
+    "url": "https://luffytv.live/",
+    "description": "Ad-light streaming portal dedicated to long-running shonen and seasonal anime.\nSmooth video player with multiple server fallbacks and dub support.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Shonen Archive",
+      "Low Ads"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "LuffyTV mirror",
+    "url": "https://luffytv.online/",
+    "description": "High-speed backup mirror for LuffyTV providing reliable uninterrupted streams.\nBypasses network congestion with dedicated video CDN delivery.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "CDN Route",
+      "Sub / Dub"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "AniChan",
+    "url": "https://anichan.to/",
+    "description": "Comfortable anime viewer offering crisp Japanese audio with English subtitles.\nBrowse seasonal anime releases with clean episode lists and descriptions.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Simulcast",
+      "Episode Guide"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "AnimeParadise",
+    "url": "https://www.animeparadise.moe/",
+    "description": "Expansive library of popular anime series, OVA specials, and theatrical movies.\nSupports dual-audio sub and dub streams with responsive controls.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Movie Archive",
+      "OVA Specials"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "AnimeDex",
+    "url": "https://animedex.fun/",
+    "description": "Open-source, lightning-fast anime streaming web app with clean modern UI.\nPulls video streams from multiple providers with zero intrusive ads.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Ad-Free",
+      "Open Source"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Anify",
+    "url": "https://anify.to/",
+    "description": "Decentralized anime discovery and streaming portal built with modern web tech.\nAggregates high-bitrate video feeds, accurate metadata, and subtitle sync.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Modern Web",
+      "Accurate Meta"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "AniDB (.app)",
+    "url": "https://anidb.app/",
+    "description": "Fast streaming client and database frontend for exploring vast anime archives.\nFeatures detailed character bios, episode guides, and multi-server links.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Database",
+      "Character Bios"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Enma",
+    "url": "https://www.enma.lol/",
+    "description": "Sleek dark-themed streaming website with auto-next and custom video player.\nComprehensive collection of seasonal anime, movies, and completed series.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Dark UI"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Anikura",
+    "url": "https://anikura.club/",
+    "description": "Smooth streaming hub with easy navigation between subbed and dubbed episodes.\nFast video buffering with clear quality selectors up to full 1080p.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "1080p",
+      "Fast Buffer"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "1Anime",
+    "url": "https://1ani.me/",
+    "description": "Modern video player delivering high-definition anime with automated next episode.\nFeatures clean search filters, dub toggles, and bookmark watchlist.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Watchlist"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Kyren",
+    "url": "https://kyren.moe/",
+    "description": "Aesthetic streaming portal offering high-definition video playback.\nCurated anime collections with synchronized subtitles and responsive layout.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Aesthetic UI",
+      "HD Streams"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Yenime",
+    "url": "https://yenime.net/",
+    "description": "Fresh anime streaming site with fast CDN nodes and minimal buffering.\nIncludes both English subbed and dubbed options across top series.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Fast CDN",
+      "No Lag"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "AnimeNoSub",
+    "url": "https://animenosub.to/",
+    "description": "Dedicated repository of raw Japanese anime broadcasts without hard subtitles.\nIdeal for Japanese language learners, video editors, and AMV creators.",
+    "category": "streaming",
+    "tags": [
+      "RAW",
+      "Japanese Audio",
+      "AMV Creators"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "AnimeOnsen",
+    "url": "https://animeonsen.xyz/",
+    "description": "Ad-free community anime platform built with smooth native video controls.\nOptimized for fast streaming with clean subtitles and open-source backend.",
+    "category": "streaming",
+    "tags": [
+      "Subbed",
+      "Ad-Free",
+      "Open Source"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Yomi",
+    "url": "https://yomi.to/",
+    "description": "Polished anime streaming destination featuring seamless auto-next autoplay.\nDiscover top-rated anime series with high-quality English subs and dubs.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Top Rated"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Babyanime",
+    "url": "https://babyanime.top/",
+    "description": "Compact, quick-loading streaming portal with straightforward episode listings.\nOffers multi-server video links with sub and dub audio support.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Compact UI",
+      "Multi-Server"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "AniClipse",
+    "url": "https://aniclipse.com/",
+    "description": "Vibrant anime streaming site featuring trending seasonal titles and classics.\nHigh-definition video playback with easy episode navigation controls.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Seasonal Trending",
+      "HD Playback"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "AniHQ",
+    "url": "https://anihq.cc/",
+    "description": "High-definition video portal focusing on top-tier video and audio quality.\nComprehensive sub and dub library updated daily with new simulcasts.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "High Quality",
+      "Daily Updates"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Luna",
+    "url": "https://luna-stream.me/",
+    "description": "Elegant streaming client with clean typography and distraction-free playback.\nBrowse seasonal anime and classic archives in crisp 1080p resolution.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Distraction-Free",
+      "1080p"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "AniNami",
+    "url": "https://aninami.site/",
+    "description": "Smooth streaming portal offering quick access to latest anime broadcasts.\nEquipped with dual audio selections and multiple server redundancy.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Broadcasts",
+      "Server Redundancy"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Rive Anime",
+    "url": "https://www.rivestream.app/",
+    "description": "Modern progressive web app interface with auto-next and custom controls.\nStreams high quality anime with subtitle personalization options.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "PWA"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Rive Anime mirror",
+    "url": "https://rivestream.ru/",
+    "description": "Official secondary mirror for Rive Anime ensuring 24/7 global availability.\nMaintains full playlist sync and low-latency streaming CDN routes.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "24/7 Uptime",
+      "Global CDN"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Rive Anime Status",
+    "url": "https://rentry.co/rivestream",
+    "description": "Official network status and maintenance notice board for Rive Anime services.\nStay informed on domain migrations, server patches, and feature updates.",
+    "category": "tools",
+    "tags": [
+      "Status",
+      "Maintenance",
+      "Notices"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Kawaii Anime",
+    "url": "https://kawaiianime.cc/",
+    "description": "Charming streaming site offering thousands of anime series in HD quality.\nFeatures dual audio sub/dub switches and fast auto-next transitions.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "HD Quality"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "FireAnime",
+    "url": "https://fireani.me/",
+    "description": "High-speed streaming portal built for seamless TV and desktop anime viewing.\nDelivers crisp subtitles, fast buffer times, and organized genre filters.",
+    "category": "streaming",
+    "tags": [
+      "Subbed",
+      "TV Friendly",
+      "Genre Filters"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "9anime",
+    "url": "https://9animstv.to/",
+    "description": "One of the most famous anime streaming platforms with massive title archives.\nFeatures multiple audio tracks, auto-skip intro/outro, and 1080p playback.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Skip",
+      "Massive Catalog"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "bAnime",
+    "url": "https://banime.dedyn.io/",
+    "description": "Minimalist ad-free anime player delivering pure video streaming enjoyment.\nFeatures sub and dub options with automated next-episode progression.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Next",
+      "Ad-Free"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "PirateXplay",
+    "url": "https://piratexplay.cc/home",
+    "description": "Dedicated streaming portal with clean video playback and rapid load times.\nBrowse ongoing seasonal broadcasts with high-definition subtitles.",
+    "category": "streaming",
+    "tags": [
+      "Subbed",
+      "Fast Playback",
+      "Broadcasts"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "PirateXplay mirror",
+    "url": "https://piratexplay.com/",
+    "description": "Official backup server providing uninterrupted access to PirateXplay.\nFast mirror servers ensuring low latency and reliable playback.",
+    "category": "mirrors",
+    "tags": [
+      "Mirror",
+      "Backup",
+      "Low Latency"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Kuroiru",
+    "url": "https://kuroiru.co/",
+    "description": "Multi-site unified anime search engine scanning multiple streaming platforms.\nFind where any anime episode is currently streaming with one single query.",
+    "category": "tools",
+    "tags": [
+      "Search Engine",
+      "Aggregator",
+      "Multi-Site"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "AnimeXin",
+    "url": "https://animexin.dev/",
+    "description": "Premier portal for Chinese animation (Donghua) with quality English subtitles.\nDaily uploads of 3D cultivation, action, and fantasy Donghua series.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "Subbed",
+      "3D Animation"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Lucifer Donghua",
+    "url": "https://luciferdonghua.in/",
+    "description": "Dedicated streaming platform focusing on high-definition Donghua releases.\nComprehensive archives of ongoing cultivation and martial arts series.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "Cultivation",
+      "Martial Arts"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "LMANIME",
+    "url": "https://lmanime.com/",
+    "description": "Specialized Donghua streaming website featuring crisp English subtitles.\nFast video players with multi-server options and complete season packs.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "Multi-Server",
+      "Season Packs"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "CKSub",
+    "url": "https://donghua4k.net/",
+    "description": "Ultra HD 4K and 1080p Donghua streaming hub with professional fansubs.\nFeatures top-tier Chinese 3D anime series with high-bitrate video feeds.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "4K Ultra HD",
+      "Fansubs"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "MyAnime",
+    "url": "https://myanime.live/",
+    "description": "Rich streaming catalog featuring both Japanese anime and Chinese Donghua.\nClean subtitle synchronization with multiple high-speed server choices.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "Anime",
+      "Dual Catalog"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "AnimeKhor",
+    "url": "https://animekhor.org/",
+    "description": "Leading Donghua and anime translation portal with high-speed video players.\nExtensive collections of ongoing fantasy Donghua with clear English subs.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "Fast Player",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Crimson Subs",
+    "url": "https://crimsonfansubs.com/",
+    "description": "Dedicated fansub group and streaming site for premium Donghua series.\nHigh-bitrate encodes with accurate translations and timely weekly releases.",
+    "category": "donghua",
+    "tags": [
+      "Donghua",
+      "Fansubs",
+      "High Bitrate"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "HiAnime",
+    "url": "https://hianimes.se/",
+    "description": "Top-tier anime streaming giant featuring multi-server 1080p video feeds.\nIncludes auto-skip intro/outro, synchronized subs, dubs, and live comments.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Auto-Skip",
+      "1080p"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Aniwatch",
+    "url": "https://aniwatch.co.at/",
+    "description": "Leading streaming hub with watch2gether rooms and zero forced redirects.\nOffers high-bitrate sub and dub streams with customizable subtitle styling.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Watch2Gether",
+      "1080p"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "GogoAnime",
+    "url": "https://gogoanime.or.at/",
+    "description": "The classic anime streaming powerhouse with the largest historical episode archive.\nFastest simulcast uploads with multiple video host mirrors and mobile support.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Classic",
+      "Simulcast"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Zoro.to",
+    "url": "https://zorotv.com.in/",
+    "description": "Massively popular streaming interface designed for fast, seamless binge watching.\nFeatures multi-language audio, episode schedules, and zero-buffering playback.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Fast CDN",
+      "Auto-Next"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "YugenAnime",
+    "url": "https://yugenanime.tv",
+    "description": "Minimalist, ad-light streaming destination with tracking and custom watchlists.\nFeatures clean 1080p video player with smooth keyboard scrubbing controls.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Ad-Light",
+      "Watchlist"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "AnimeKai",
+    "url": "https://animekai.com.ro/",
+    "description": "Community-driven streaming directory featuring 1080p episodes and seasonal charts.\nFast multi-server failover with synchronized subtitles and English dubbing.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "1080p",
+      "Seasonal Charts"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "AnimeHeaven",
+    "url": "https://animeheaven.me",
+    "description": "Lightweight and mobile-friendly anime streaming site with quick episode search.\nIncludes complete seasonal series, movies, and OVAs with download options.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Mobile Ready",
+      "Downloads"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "AnimeDao",
+    "url": "https://animedao.in/",
+    "description": "Speedy streaming portal with simple layout and daily updated simulcast releases.\nBrowse top-rated anime series with low-bandwidth video player options.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "Simulcast",
+      "Fast Loading"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Nyaa",
+    "url": "https://nyaa.si",
+    "description": "The world's largest open community torrent index for raw and subbed anime media.\nHigh-speed peer-to-peer distribution for 4K remuxes, BDMVs, and fansubs.",
+    "category": "torrent",
+    "tags": [
+      "Torrent",
+      "Raw & Sub",
+      "High Quality"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "SubsPlease",
+    "url": "https://subsplease.org",
+    "description": "Premier release group providing direct high-definition anime episode downloads.\nSimulcast releases with multi-resolution 1080p, 720p, and 480p MKV files.",
+    "category": "tools",
+    "tags": [
+      "Downloads",
+      "Simulcast",
+      "1080p MKV"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "AnimeFrenzy",
+    "url": "https://animefrenzy.cc/watch/59970/1",
+    "description": "Dedicated anime streaming hub featuring comprehensive English dub collections.\nUpdated continuously with ongoing seasonal broadcasts and community chat.",
+    "category": "streaming",
+    "tags": [
+      "Dub Focus",
+      "Subbed",
+      "Simulcast"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "AnimeFlv",
+    "url": "https://animeflv.or.at/",
+    "description": "The undisputed giant of Spanish-subbed anime streaming with massive archives.\nLightning-fast video servers with active community comments and mobile app.",
+    "category": "streaming",
+    "tags": [
+      "Spanish Sub",
+      "Massive Library",
+      "Fast CDN"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "JKanime",
+    "url": "https://jkanime.net",
+    "description": "Popular Latin American anime streaming community with immediate simulcasts.\nMultiple video player mirrors with high-speed Latin Spanish subtitle tracks.",
+    "category": "streaming",
+    "tags": [
+      "Spanish Sub",
+      "Simulcast",
+      "Multi-Host"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "AnimeUnity",
+    "url": "https://animeunity.site/",
+    "description": "Premier Italian-subbed anime portal offering pristine 1080p video encodes.\nFeatures clean catalog navigation, seasonal rankings, and fast load times.",
+    "category": "streaming",
+    "tags": [
+      "Italian Sub",
+      "1080p",
+      "Rankings"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "VOSTFREE",
+    "url": "https://vostfree.ws",
+    "description": "Leading French anime platform offering subbed (VOSTFR) and dubbed (VF) series.\nMulti-host video player with comprehensive archives of ongoing seasonals.",
+    "category": "streaming",
+    "tags": [
+      "French VOSTFR",
+      "VF Dub",
+      "Multi-Host"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Bilibili Global",
+    "url": "https://www.bilibili.tv",
+    "description": "Official licensed streaming destination for top-tier anime and Chinese Donghua.\nFeatures multi-language official subtitles, bullet comments, and 1080p/4K.",
+    "category": "donghua",
+    "tags": [
+      "Official",
+      "Donghua",
+      "1080p/4K"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Kuramanime",
+    "url": "https://kuramanime.run",
+    "description": "Popular Indonesian anime streaming portal with batch episode downloads.\nClean user dashboard with Discord integration and fast video mirrors.",
+    "category": "streaming",
+    "tags": [
+      "Indonesian Sub",
+      "Batch DL",
+      "Discord Sync"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Kitsu",
+    "url": "https://kitsu.io",
+    "description": "Contemporary anime discovery engine with personalized recommendation feeds.\nTrack your episode progress across devices with smooth mobile apps.",
+    "category": "index",
+    "tags": [
+      "Discovery",
+      "Recommendations",
+      "Mobile App"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "LiveChart.me",
+    "url": "https://www.livechart.me",
+    "description": "Real-time seasonal anime countdown charts and official legal stream links.\nFeatures weekly broadcast schedules, studio details, and PV trailers.",
+    "category": "index",
+    "tags": [
+      "Countdown",
+      "Schedules",
+      "Legal Links"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "4Anime",
+    "url": "https://4anime.com.ro/",
+    "description": "Clean anime streaming site built for high-bitrate video and fast search.\nOffers dual-audio sub and dub libraries with responsive controls.",
+    "category": "streaming",
+    "tags": [
+      "Sub / Dub",
+      "High Bitrate",
+      "Clean UI"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Hanime",
+    "url": "https://hanime.tv",
+    "description": "Leading high-definition adult animation (18+) streaming portal with fast CDN.\nFeatures 1080p video player, playlist management, and comprehensive tags.",
+    "category": "streaming",
+    "tags": [
+      "18+ Adult",
+      "1080p HD",
+      "Fast CDN"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Sankaku Complex",
+    "url": "https://sankakucomplex.com",
+    "description": "Pop-culture news, anime media hub, and visual art archive for fans.\nCovers anime industry news, gaming releases, and Japanese subculture.",
+    "category": "index",
+    "tags": [
+      "News",
+      "Media Hub",
+      "Art Archive"
+    ]
+  }
+]

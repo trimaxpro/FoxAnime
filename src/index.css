@@ -276,3 +276,84 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #E50914;
 }
+
+/* Anti-AdBlock Overlay */
+.anti-adblock-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: antiAdFadeIn 0.3s ease-out;
+}
+
+.anti-adblock-white {
+  position: relative;
+  max-width: 420px;
+  width: 100%;
+  padding: 36px 32px;
+  border-radius: 18px;
+  background: #0a0a0a;
+  border: 1px solid #262626;
+  box-shadow: 0 25px 60px rgba(229, 9, 20, 0.18), 0 20px 50px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.anti-adblock-smile {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 18px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #E50914, #b00710);
+  box-shadow: 0 0 30px var(--brand-glow);
+  position: relative;
+}
+
+.anti-adblock-smile::after {
+  content: '\2661';
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.anti-adblock-white h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.anti-adblock-white p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #a3a3a3;
+  font-weight: 500;
+}
+
+.anti-adblock-white p strong {
+  color: #E50914;
+}
+
+@keyframes antiAdFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Home, Compass, Clock, Settings, Sparkles } from 'lucide-react';
+import { Home, Compass, Clock, Settings, Eye, TriangleAlert, Sparkles } from 'lucide-react';
 
 interface TabItem {
   id: string;
@@ -26,6 +26,12 @@ const tabs: TabItem[] = [
     label: 'History',
     icon: <Clock className="w-4 h-4" />,
     image: '/assets/historypage.png',
+  },
+  {
+    id: 'hentai',
+    label: 'Hentai',
+    icon: <Eye className="w-4 h-4" />,
+    image: '/assets/hentaipage.png',
   },
   {
     id: 'settings',
@@ -76,6 +82,23 @@ export const AppShowcaseTabs: React.FC = () => {
             })}
           </div>
         </div>
+
+        {/* Hentai Ads Notice (Hentai tab only) */}
+        {activeTab.id === 'hentai' && (
+          <div className="max-w-4xl mx-auto mt-4 rounded-xl bg-neutral-900/80 border border-amber-500/25 px-5 py-4 flex items-start gap-3">
+            <div className="p-2 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/25 flex-shrink-0">
+              <TriangleAlert className="w-4 h-4" />
+            </div>
+            <div>
+              <p className="text-sm font-semibold text-neutral-200 font-ubuntu">
+                Note: Hentai pages may show ads
+              </p>
+              <p className="text-xs text-neutral-400 leading-relaxed mt-1 font-nunito">
+                The anime section stays clean, but the adult catalog is a third-party feed, so its pages can display ads. This is why the hentai area is a separate, opt-in part of the app.
+              </p>
+            </div>
+          </div>
+        )}
 
         {/* 16:9 Full Width Display Stage */}
         <div className="relative w-full max-w-7xl mx-auto rounded-2xl bg-neutral-950 p-5 border border-neutral-800 shadow-2xl overflow-hidden hover:border-neutral-700 transition-all duration-300">

@@ -3,7 +3,7 @@
     <img src="public/assets/logo.png" alt="FoxAnime Logo" width="48" height="48" align="absmiddle" />
     <span align="absmiddle">FoxAnime</span>
   </h1>
-  <p>Stream your favorite anime in high definition with <b>zero ad interruptions</b>, automated progress tracking, and instant title search.</p>
+  <p>Stream your favorite anime in high definition with automated progress tracking and instant title search. The adult section may show ads.</p>
 </div>
 
 ---
@@ -32,13 +32,13 @@
 
 ## 🌟 Overview
 
-**FoxAnime** is a premium, dark-themed desktop anime streaming client designed for seamless, ad-free entertainment. This website serves as the official landing page and feature preview showcase for the FoxAnime application.
+**FoxAnime** is a premium, dark-themed desktop anime streaming client. This website serves as the official landing page and feature preview showcase for the FoxAnime application.
 
 ---
 
 ## ✨ Key Features
 
-- 🍿 **100% Ad-Free Streaming**: Full HD 1080p anime playback with zero ad interruptions or popups.
+- 🍿 **Full HD 1080p Streaming**: High-definition anime playback, clean on anime pages. The adult (hentai) section may show ads.
 - ⚡ **Instant Title Search**: Lightning-fast title discovery with real-time search auto-complete.
 - ⏱️ **Auto Progress Resume**: Automatically tracks your episode watch time so you can pick up exactly where you left off.
 - 🎬 **Dynamic Animated Background**: Features continuous, high-definition anime animation clips with backdrop blur for an immersive visual experience.
@@ -54,7 +54,7 @@
 - **Search**: Open the instant title search feature to preview fast anime lookup.
 
 ### 2. Downloading for Windows
-- Click **Download for 🪟** in the Hero or Download section to fetch the official Windows desktop client setup (`Fox-Anime-Setup-1.0.0.exe`).
+- Click **Download for 🪟** in the Hero or Download section to fetch the official Windows desktop client setup (`Fox-Anime-v1.1.0-Windows.zip`).
 
 ---
 
