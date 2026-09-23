@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "tsc --noEmit",
-    "preview": "vite preview",
-    "deploy": "node scripts/deploy_cloudflare.cjs"
+    "preview": "vite preview"
   },
   "dependencies": {
     "clsx": "^2.1.1",

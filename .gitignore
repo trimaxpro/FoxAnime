@@ -40,6 +40,8 @@ anti-adblock.js
 # Scratch & temporary development scripts
 scratch/
 temp/
+scripts/
+sql/
 *.test.js
 test_*.js
 
