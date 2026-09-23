@@ -97,11 +97,6 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose, o
     }
   };
 
-  const handleSkip = () => {
-    triggerDirectDownload();
-    onClose();
-  };
-
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-fadeIn"
@@ -223,16 +218,6 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({ isOpen, onClose, o
                 )}
               </button>
 
-              {/* Direct Skip Link */}
-              <div className="text-center pt-1">
-                <button
-                  type="button"
-                  onClick={handleSkip}
-                  className="text-[11px] font-ubuntu text-neutral-500 hover:text-neutral-300 transition-colors underline underline-offset-4 cursor-pointer"
-                >
-                  Skip and download directly
-                </button>
-              </div>
 
               {/* Privacy Badge */}
               <div className="pt-2 border-t border-neutral-900 flex items-center justify-center space-x-1.5 text-[11px] text-neutral-500 font-lato">
