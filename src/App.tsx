@@ -30,8 +30,8 @@ export const App: React.FC = () => {
     // Sync browser tab title
     document.title =
       page === 'alternatives'
-        ? 'FoxAnime - Streaming Alternatives'
-        : 'FoxAnime - Free Desktop Anime Client';
+        ? 'Anime Streaming Sites & Direct Alternatives Directory | FoxAnime'
+        : 'FoxAnime - Free Desktop Anime Client | Stream HD Anime Online';
 
     // If opened with #website, rewrite URL to #alternatives immediately
     if (window.location.hash === '#website') {

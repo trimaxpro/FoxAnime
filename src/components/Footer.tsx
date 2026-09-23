@@ -19,9 +19,9 @@ export const Footer: React.FC = () => {
                 <img src="/assets/logo.png" alt="Fox Anime" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-200" />
               </div>
               <div className="flex flex-col text-left">
-                <h1 className="font-oswald text-2xl font-bold tracking-wide leading-none text-neutral-100 uppercase group-hover:text-brand-red transition-colors">
+                <span className="font-oswald text-2xl font-bold tracking-wide leading-none text-neutral-100 uppercase group-hover:text-brand-red transition-colors">
                   Fox Anime
-                </h1>
+                </span>
                 <p className="font-nunito text-[11px] font-extrabold text-brand-red tracking-[0.2em] uppercase mt-1">
                   Desktop Streaming Client
                 </p>
@@ -56,6 +56,16 @@ export const Footer: React.FC = () => {
             </div>
 
           </div>
+
+          {/* Crawler-Only Semantic Metadata for Search Indexing (Visually Hidden, Zero Layout Impact) */}
+          <aside aria-label="SEO Indexing Topics" className="sr-only">
+            <h3>Popular Anime Streaming Topics & Features</h3>
+            <p>
+              Free desktop anime client for streaming subbed and dubbed anime series in full 1080p HD.
+              Direct links and community directory for top anime platforms including HiAnime, Aniwatch, GogoAnime, Zoro,
+              stream anime episodes, seasonal simulcasts, episode progress tracker, multi-server playback, and anime alternatives catalog.
+            </p>
+          </aside>
 
         </div>
       </footer>

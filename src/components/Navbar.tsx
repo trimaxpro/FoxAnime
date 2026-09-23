@@ -36,9 +36,9 @@ export const Navbar: React.FC<NavbarProps> = ({ page, onNavigate }) => {
             />
           </div>
           <div className="flex flex-col justify-center">
-            <h1 className="font-oswald text-2xl font-bold tracking-wide leading-none text-neutral-100 uppercase group-hover:text-brand-red transition-colors">
+            <span className="font-oswald text-2xl font-bold tracking-wide leading-none text-neutral-100 uppercase group-hover:text-brand-red transition-colors">
               Fox
-            </h1>
+            </span>
             <p className="font-nunito text-[11px] font-extrabold text-brand-red tracking-[0.2em] uppercase mt-0.5 leading-none">
               Anime
             </p>

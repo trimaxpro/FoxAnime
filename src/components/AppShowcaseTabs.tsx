@@ -110,9 +110,9 @@ export const AppShowcaseTabs: React.FC = () => {
               <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
               <div className="w-3 h-3 rounded-full bg-green-500/80" />
             </div>
-            <div className="text-xs text-neutral-400 font-mono">
+            <h3 className="text-xs text-neutral-400 font-mono m-0 font-normal">
               Fox Anime — {activeTab.label}
-            </div>
+            </h3>
             <div className="text-[11px] text-brand-red font-mono font-bold">100% Full View</div>
           </div>
 
